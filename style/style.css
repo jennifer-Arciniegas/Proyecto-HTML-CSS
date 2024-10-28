@@ -349,11 +349,11 @@ body {
     }
 
     .Galería img {
-        width: 90%; /* Las imágenes ocupan el 90% del ancho del contenedor */
-        max-width: 300px; /* Limita el tamaño máximo de las imágenes */
+        width: 90%; 
+        max-width: 300px; 
         height: auto; /* Mantiene la proporción de la imagen */
         object-fit: cover; /* Cubre el área disponible */
-        border-radius: 10px; /* Mantiene el borde redondeado */
+        border-radius: 10px; 
         
     }
 }
