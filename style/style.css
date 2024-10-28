@@ -217,7 +217,44 @@ body {
 .nosotrosFin img{
     width: 20px;
 }
+.Galería{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.Galería img {
+    width: 220px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.Galería .imgArriba {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow-x:scroll;
+    background-color: white;
+    overflow-y: hidden;
+}
+.Galería .imgAbajo {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow-x: scroll;
+    background-color: red;
+    overflow-y: hidden;
 
+}
 /* Media Query para pantallas de 768px o menos */
 @media (max-width: 768px) {
     .header{
@@ -285,6 +322,39 @@ body {
         justify-content: center;
         font-family: 'Anybody', sans-serif;
         padding: 1rem 0;
+    }
+    .Galería {
+        flex-direction: column;
+        gap: 5px; /* Ajusta el espacio entre imágenes en pantallas pequeñas */
+        padding: 10px;
+        align-items: center; /* Centra el contenido en la pantalla */
+    }
+
+    .Galería .imgArriba{
+        gap: 5px;
+        height: auto;
+        overflow: scroll; /* Evita desbordamiento */
+        align-items: center; /* Centra las imágenes */
+        height: auto;
+       
+    }
+    .Galería .imgAbajo{
+        display: flex;
+        gap: 5px;
+        height: auto;
+        overflow: scroll; /* Evita desbordamiento */
+        align-items: center; /* Centra las imágenes */
+        height: auto;
+       
+    }
+
+    .Galería img {
+        width: 90%; /* Las imágenes ocupan el 90% del ancho del contenedor */
+        max-width: 300px; /* Limita el tamaño máximo de las imágenes */
+        height: auto; /* Mantiene la proporción de la imagen */
+        object-fit: cover; /* Cubre el área disponible */
+        border-radius: 10px; /* Mantiene el borde redondeado */
+        
     }
 }
 
