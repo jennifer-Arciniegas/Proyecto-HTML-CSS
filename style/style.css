@@ -214,3 +214,65 @@
     width: 20px;
 }
 /*media  query  para pantallas de 768px o menos*/
+@media (max-width: 768px) {
+    .header{
+        display: none; /* Ocultamos el menú normal para mostrar el de tipo hamburguesa */
+    }
+
+    /* Estilos para el icono de menú hamburguesa */
+    .menu-icon {
+        display: block; /* Muestra el icono de menú en pantallas pequeñas */
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        position: fixed; /*propiedad que mantiene fijo el menu con scroll*/
+        top: 20px;
+        right: 20px;
+    }
+     /* Ajustes para ocultar imágenes en pantallas pequeñas */
+     .imgSecunda, .imgTercera {
+        display: none;
+    }
+
+    .header_nav.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        height: auto;
+        background-color: pink;
+        gap: 2rem;
+        padding: 20px 0;
+    }
+
+    .header_nav a {
+        font-size: 1.2rem;
+    }
+    .contenedor{
+        width: 100%;
+        height: auto;
+    }
+    .contenedor .inicio {
+        width: 100%;
+        height: auto;
+        padding-top: 3rem;
+    }
+    .imgPrimera{
+        width: 300px;
+        height: 250px;
+    }
+    .Nosotros{
+        width: 100%;
+        height: auto;
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Anybody', sans-serif;
+        padding: 1rem 0;
+    }
+}
+
