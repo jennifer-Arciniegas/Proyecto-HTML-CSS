@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografía de Bodas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gulfs+Display:wght@400;700&display=swap">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header_nav">
+            <input type="checkbox" id="menu_toggle">
+            <label for="menu_toggle" class="menu_boton"> </label>
+            <a href="#Nosotros" class="boton"><img src="storage/imagenes/corazon.svg" alt="">Nosotros</a>
+            <a href="#Galeria" class="boton"><img src="storage/imagenes/rombo.svg" alt="">Galería</a>
+            <a href="#Precios" class="boton"><img src="storage/imagenes/asterisco.svg" alt="">Precios</a>
+            <a href="#Contactos" class="boton"><img src="storage/imagenes/estrella.svg" alt="">Contactos</a>
+        </nav>
+    </header>
+    <div class="menu-icon" onclick="toggleMenu()">
+        <img src="storage/imagenes/menu-icon.svg" alt="Menu">
+    </div>
+    <div class="mobile-nav">
+        <a href="#Nosotros" class="boton"><img src="storage/imagenes/corazon.svg" alt="">Nosotros</a>
+        <a href="#Galeria" class="boton"><img src="storage/imagenes/rombo.svg" alt="">Galería</a>
+        <a href="#Precios" class="boton"><img src="storage/imagenes/asterisco.svg" alt="">Precios</a>
+        <a href="#Contactos" class="boton"><img src="storage/imagenes/estrella.svg" alt="">Contactos</a>
+    </div>
+    <main class="contenedor">
+        <section class="inicio" id="inicio">
+            <div class="imgSecunda">
+                <img src="storage/imagenes/segunda.jpg" alt="">
+            </div>
+            <div class="titulo">
+                <h1>CAPTURAMOS LOS SENTIMIENTOS</h1>
+            </div>
+            <div class="imgPrimera">
+                <img src="storage/imagenes/primera.jpg" alt="">
+            </div>
+            <div class="imgTercera">
+                <img src="storage/imagenes/tercera.jpg" alt="">
+            </div>
+        </section>
+        <section class="Nosotros" id="Nosotros">
+            <div class="nosotrosHeader">
+                <div class="nosotrosHeaderDerecha">
+                    <img src="storage/imagenes/about-shape.svg" alt="">
+                    <p>LOVER OF LOVE</p>
+                </div>
+                <div class="nosotrosHeaderDerecha">
+                    <p>FINE ART FILM PHOTOGRAPHERS</p>
+                    <img src="storage/imagenes/about-shape.svg" alt="">
+                </div>
+            </div>
+            <div class="nosotrosContenedor">
+                <div class="nosotrosTexto">
+                    <h2>HOLA AQUI</h2>
+                    <p>Somos catadores de pasteles profesionales. pregoneros de bodas y amantes del amor: En resuren, isomos grandes fanaticos del matrimoniol El matrimonio es un compromiso muy especial y tu boda marca el testimonio y la celebracion de este vinculo. Estamos muy emoclonados por este Increible proximo caprtulo de tu vida. lo recomendamos de todo corazon!</p>
+                    <div class="nosotrosFooter">
+                        <h3>TUS NUPCIALISTAS</h3>
+                        <img src="storage/imagenes/about-ring.svg" alt="">
+                        <img src="storage/imagenes/about-star.svg" alt="">
+                    </div>
+                </div>
+                <div class="nosotrosImagen">
+                    <img src="storage/imagenes/about-img.jpg" alt="">
+                </div>
+            </div>
+            <div class="nosotrosFin">
+                <img src="storage/imagenes/about-shape.svg" alt="">
+                <img src="storage/imagenes/about-shape.svg" alt="">
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Función para mostrar u ocultar el menú
+        function toggleMenu() {
+            const nav = document.querySelector('.mobile-nav');
+            nav.classList.toggle('active'); // Alterna la clase 'active' para mostrar/ocultar el menú
+        }
+    </script>
+</body>
+</html>
