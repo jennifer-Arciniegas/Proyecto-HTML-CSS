@@ -539,6 +539,24 @@ body {
 h1, h2 {
     font-family: 'Gulfs Display', sans-serif;
 }
+
+.Contactos{
+    display: grid;
+    background-color: pink;
+    border-top: blue;
+    grid-template-columns: 50% 50%; /* Cada fila ocupa el 50% de la altura */
+    height: 100vh; /* La sección ocupa el 100% de la altura de la pantalla */
+    gap: 10px; /* Espacio entre filas */
+}
+.pareja {
+    grid-column: 1;
+}
+.textoFecha{
+    grid-column: 2;
+}
+
+
+
 /* Media Query para pantallas de 768px o menos */
 @media (max-width: 768px) {
     .header{
