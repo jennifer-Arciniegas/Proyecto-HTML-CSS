@@ -1,8 +1,13 @@
+/* Estilos generales */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
 .header {
     width: 100%;
@@ -70,7 +75,6 @@
     gap: 2rem;
     padding: 20px 0;
 }
-/*-----------------------------------------------Elementos------------------------------------------*/
 
 /* Posiciona cada elemento en la cuadrícula */
 .imgSecunda {
@@ -213,7 +217,8 @@
 .nosotrosFin img{
     width: 20px;
 }
-/*media  query  para pantallas de 768px o menos*/
+
+/* Media Query para pantallas de 768px o menos */
 @media (max-width: 768px) {
     .header{
         display: none; /* Ocultamos el menú normal para mostrar el de tipo hamburguesa */
@@ -229,8 +234,9 @@
         top: 20px;
         right: 20px;
     }
-     /* Ajustes para ocultar imágenes en pantallas pequeñas */
-     .imgSecunda, .imgTercera {
+
+    /* Ajustes para ocultar imágenes en pantallas pequeñas */
+    .imgSecunda, .imgTercera {
         display: none;
     }
 
