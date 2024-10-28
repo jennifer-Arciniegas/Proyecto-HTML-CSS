@@ -266,7 +266,7 @@ body {
 }
 
 /*fuentes*/
-h1{
+h1, h2 {
     font-family: 'Gulfs Display', sans-serif;
 }
 /* Media Query para pantallas de 768px o menos */
