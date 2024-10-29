@@ -556,7 +556,7 @@ h1, h2 {
     background-color: pink;
     border-top: blue;
     grid-template-columns: 50% 50%; /* Cada fila ocupa el 50% de la altura */
-    height: 100vh; /* La sección ocupa el 100% de la altura de la pantalla */
+    height: 130vh; /* La sección ocupa el 100% de la altura de la pantalla */
     gap: 10px; /* Espacio entre filas */
     align-items: center;
     justify-items: center;
@@ -596,6 +596,30 @@ h1, h2 {
     left: 390px;
     top: 8vh;  
 }
+.serpentina{
+    grid-column: 1;
+    position: relative;
+    left: 400px;
+    top: 5vh;
+    z-index: 6;
+}
+.bebidas{
+    grid-column: 1;
+    position: relative;
+    left: 400px;
+    top: 5vh;
+    z-index: 6;
+}
+.heart{
+    grid-column: 1;
+    position: relative;
+    right: 110px;
+    bottom: 40vh;
+    z-index: 6;
+}
+
+
+
 
 /*-------------------------------------------------------------------------*/
 .textoFecha{
