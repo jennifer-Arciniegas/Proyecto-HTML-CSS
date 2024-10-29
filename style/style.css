@@ -580,20 +580,20 @@ h1, h2 {
 .yay{
     grid-column: 1;
     position: relative;
-    left: 20vh;
+    left: 200px;
     top: -13vh;
 
 }
 .destellos{
     grid-column: 1;
     position: relative;
-    left: 45vh;
-    top: 10vh;
+    left: 450px;
+    top: 7vh;
 }
 .anillos{
     grid-column: 1;
     position: relative;
-    left: 20vw;
+    left: 390px;
     top: 8vh;  
 }
 
