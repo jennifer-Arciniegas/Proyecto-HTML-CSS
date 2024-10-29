@@ -572,28 +572,83 @@ h1, h2 {
     display: flex;
     justify-content: end;
     position: relative;
-    top: -3.5vw;
-    width: 3vw;
-    height: 3vw;
-    right: -20vw;
+    top: -3.5vh;
+    width: 4.5vw;
+    height: 4.5vh;
+    right: -15vw;
     
 }
 .flecha_rosa{
     display: flex;
     justify-content: end;
     position: relative;
-    top: -2.5vw;
+    justify-content: end;
     border-radius: 50%;
     border: 1px solid black;
-    width: 3vw;
-    height: 3vw;
-    
+    width: 3.5vw;
+    height: 3.5vw;
+    right: -22vw;
+    top: -9.5vh;
+    background-color: orangered;
+    align-content: center;
+    justify-content: center;
+
     
 }
-.flecha_rosada{
+.lineanaranja{
+    color: orangered;
+    size: rem;
     display: flex;
+    justify-content: center;
+    position: relative;
+    top: -10vh;
 }
 
+.cajita_final{
+    
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    
+}
+.cajita1{
+    grid-column: 1;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cajita2{
+    grid-column: 2;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cajita3{
+    grid-column: 3;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circulo_facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    background-color: aquamarine;
+
+}
 
 /* Media Query para pantallas de 768px o menos */
 @media (max-width: 768px) {
@@ -680,7 +735,7 @@ h1, h2 {
         overflow: scroll; /* Evita desbordamiento */
         align-items: center; /* Centra las imágenes */
         height: auto;
-       
+    
     }
     .Galería .imgAbajo{
         display: flex;
@@ -689,7 +744,7 @@ h1, h2 {
         overflow: scroll; /* Evita desbordamiento */
         align-items: center; /* Centra las imágenes */
         height: auto;
-       
+    
     }
 
     .Galería img {
