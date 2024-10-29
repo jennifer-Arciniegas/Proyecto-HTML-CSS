@@ -561,10 +561,30 @@ h1, h2 {
     align-items: center;
     justify-items: center;
 }
-
+.dibujo{
+    display: grid;
+    grid-template-rows: 20px 20px 20px;
+}
 .pareja {
     grid-column: 1;
+    grid-row: 2;
+    z-index: 5;
+    
 }
+.musica{
+    grid-column: 1
+    
+
+
+}
+.yay{
+    grid-column: 1;
+    position: relative;
+    left: 200px;
+    top: -20vh;
+
+}
+/*-------------------------------------------------------------------------*/
 .textoFecha{
     grid-column: 2;
 }
@@ -610,6 +630,7 @@ h1, h2 {
     grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
     background-color: #f5f5f5;
     border: 1px solid black;
+    width: 700px;
     
 }
 .cajita1{
@@ -688,6 +709,25 @@ h1, h2 {
     width: 40px;
     background-color: yellow;
 }
+
+.boton_chat{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    grid-column: 2;
+    
+}
+.circulo_chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+}
+
 /* Media Query para pantallas de 768px o menos */
 @media (max-width: 768px) {
     .header{
