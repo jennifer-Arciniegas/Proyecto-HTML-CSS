@@ -580,10 +580,23 @@ h1, h2 {
 .yay{
     grid-column: 1;
     position: relative;
-    left: 200px;
-    top: -20vh;
+    left: 20vh;
+    top: -13vh;
 
 }
+.destellos{
+    grid-column: 1;
+    position: relative;
+    left: 45vh;
+    top: 10vh;
+}
+.anillos{
+    grid-column: 1;
+    position: relative;
+    left: 20vw;
+    top: 8vh;  
+}
+
 /*-------------------------------------------------------------------------*/
 .textoFecha{
     grid-column: 2;
