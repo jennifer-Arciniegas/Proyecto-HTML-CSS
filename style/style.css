@@ -98,7 +98,7 @@ body {
 }
 .imgSecunda img {
     width: 100%;
-    max-width: 350px;
+    max-width: 450px;
     height: 500px;
     object-fit: cover;
     border-radius: 10%;
@@ -900,6 +900,17 @@ h1, h2 {
         object-fit: cover; /* Cubre el área disponible */
         border-radius: 10px; 
         
+    }
+    .Contactos{
+        grid-template-rows: 1fr 1fr;
+        max-height: 1000px;
+        height: 1000px;
+    }
+    .dibujo{
+        grid-row: 1;
+    }
+    .textoFecha{
+        grid-row: 2;
     }
 }
 
