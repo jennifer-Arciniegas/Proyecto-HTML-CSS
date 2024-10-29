@@ -179,7 +179,7 @@ body {
 
 .nosotrosContenedor {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Distribuye en columnas de mínimo 300px */
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px;
 }
@@ -187,6 +187,7 @@ body {
 .nosotrosContenedor .nosotrosTexto {
     height: 80vh;
     display: flex;
+    grid-column: 2;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -207,7 +208,8 @@ body {
     font-weight: 900;
 }
 .nosotrosImagen{
-    height: 80vh;
+    grid-column: 1;
+    height: 0vh;
     display: flex;
     align-items: center;
     justify-content: center;
