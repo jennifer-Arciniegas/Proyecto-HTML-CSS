@@ -650,6 +650,44 @@ h1, h2 {
 
 }
 
+.cajita4{
+    grid-column: 4;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circulo_instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    background-color: pink;
+}
+.cajita5{
+    grid-column: 5;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.circulo_email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+}
 /* Media Query para pantallas de 768px o menos */
 @media (max-width: 768px) {
     .header{
