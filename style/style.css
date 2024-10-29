@@ -98,8 +98,8 @@ body {
 }
 .imgSecunda img {
     width: 100%;
-    max-width: 250px;
-    height: 300px;
+    max-width: 350px;
+    height: 500px;
     object-fit: cover;
     border-radius: 10%;
 }
@@ -241,10 +241,11 @@ body {
     gap: 10px;
 }
 .Galería img {
-    width: 220px;
+    width: 400px;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
+    
 }
 .Galería .imgArriba {
     width: 100%;
