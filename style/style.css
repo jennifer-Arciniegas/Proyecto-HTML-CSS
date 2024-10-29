@@ -14,6 +14,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+#menu_toggle {
+    display: none;
+}
 
 body {
     font-family: 'Gulfs Display', sans-serif;
@@ -121,11 +124,12 @@ body {
     display: flex;
     align-items: start;
     justify-content: center;
+    
 }
 .imgPrimera img {
     width: 100%;
-    max-width: 300px;
-    height: 500px;
+    max-width: 500px;
+    height: 650px;
     object-fit: cover;
     border-radius: 10rem;
 }
@@ -252,6 +256,7 @@ body {
     overflow-x:scroll;
     background-color: white;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 .Galería .imgAbajo {
     width: 100%;
@@ -263,6 +268,7 @@ body {
     overflow-x: scroll;
     background-color: red;
     overflow-y: hidden;
+    overflow-x: hidden;
 
 }
 .Precios {
@@ -560,8 +566,10 @@ h1, h2 {
     gap: 10px; /* Espacio entre filas */
     align-items: center;
     justify-items: center;
+    padding-top: 100px;
 }
 .dibujo{
+
     display: grid;
     grid-template-rows: 20px 20px 20px;
 }
@@ -614,11 +622,30 @@ h1, h2 {
     grid-column: 1;
     position: relative;
     right: 110px;
+    bottom: 45vh;
+    z-index: 6;
+}
+.box_rayo{
+    grid-column: 1;
+    position: relative;
+    right: 110px;
     bottom: 40vh;
     z-index: 6;
 }
-
-
+.serpentina_naranja{
+    grid-column: 1;
+    position: relative;
+    right: 50px;
+    bottom: 40vh;
+    z-index: 6;
+}
+.carita{
+    grid-column: 1;
+    position: relative;
+    right: 60px;
+    bottom: 55vh;
+    z-index: 6;
+}
 
 
 /*-------------------------------------------------------------------------*/
@@ -759,6 +786,7 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    margin: 60px;
     border: 1px solid black;
     height: 70px;
     width: 70px;
